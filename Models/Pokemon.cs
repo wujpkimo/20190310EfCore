@@ -7,5 +7,7 @@ namespace EfcoreConsoleApp.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public int Hp { get; set; }
+        public int MaxHp { get; set; }
     }
 }
