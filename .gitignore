@@ -1,1 +1,3 @@
-bin/*
+# Directories we don't ever want to commit
+bin
+obj
