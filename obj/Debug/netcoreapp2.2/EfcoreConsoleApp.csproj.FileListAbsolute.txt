@@ -1,0 +1,11 @@
+C:\Training\20190309coreMVC\EfcoreConsoleApp\bin\Debug\netcoreapp2.2\EfcoreConsoleApp.deps.json
+C:\Training\20190309coreMVC\EfcoreConsoleApp\bin\Debug\netcoreapp2.2\EfcoreConsoleApp.runtimeconfig.json
+C:\Training\20190309coreMVC\EfcoreConsoleApp\bin\Debug\netcoreapp2.2\EfcoreConsoleApp.runtimeconfig.dev.json
+C:\Training\20190309coreMVC\EfcoreConsoleApp\bin\Debug\netcoreapp2.2\EfcoreConsoleApp.dll
+C:\Training\20190309coreMVC\EfcoreConsoleApp\bin\Debug\netcoreapp2.2\EfcoreConsoleApp.pdb
+C:\Training\20190309coreMVC\EfcoreConsoleApp\obj\Debug\netcoreapp2.2\EfcoreConsoleApp.csprojAssemblyReference.cache
+C:\Training\20190309coreMVC\EfcoreConsoleApp\obj\Debug\netcoreapp2.2\EfcoreConsoleApp.csproj.CoreCompileInputs.cache
+C:\Training\20190309coreMVC\EfcoreConsoleApp\obj\Debug\netcoreapp2.2\EfcoreConsoleApp.AssemblyInfoInputs.cache
+C:\Training\20190309coreMVC\EfcoreConsoleApp\obj\Debug\netcoreapp2.2\EfcoreConsoleApp.AssemblyInfo.cs
+C:\Training\20190309coreMVC\EfcoreConsoleApp\obj\Debug\netcoreapp2.2\EfcoreConsoleApp.dll
+C:\Training\20190309coreMVC\EfcoreConsoleApp\obj\Debug\netcoreapp2.2\EfcoreConsoleApp.pdb
