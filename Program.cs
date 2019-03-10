@@ -13,11 +13,13 @@ namespace EfcoreConsoleApp
                 Name = "拖哥德瑪爾"
             };
 
-            GameDbContext db = new GameDbContext();
-            db.Pokemons.Add(pokemon);
-            db.SaveChanges();
+            using (var context = new GameDbContext())
+            {
+                context.Pokemons.Add(pokemon);
+                context.SaveChanges();
+            }
 
-            Console.WriteLine(pokemon.Name);
+            Console.WriteLine("新增資料完成");
         }
     }
 }
