@@ -9,8 +9,15 @@ namespace EfcoreConsoleApp
         {
             Pokemon pokemon = new Pokemon()
             {
-                Id = 1,
-                Name = "拖哥德瑪爾"
+                Name = "拖哥德瑪爾",
+                Hp = 30,
+                MaxHp = 50,
+                BasicProperty = new PokemonBasicProperty
+                {
+                    Height = 10,
+                    Weight = 20,
+                    Category = "Roly-Poly"
+                }
             };
 
             using (var context = new GameDbContext())
