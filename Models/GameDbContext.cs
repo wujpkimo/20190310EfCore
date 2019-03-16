@@ -13,7 +13,11 @@ namespace EfcoreConsoleApp.Models
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-
+            modelBuilder
+                .Entity<Pokemon>()
+                .HasOne<PokemonBasicProperty>(p => p.BasicProperty)
+                .WithOne(b => b.Pokemon)
+                .HasForeignKey<PokemonBasicProperty>(b => b.PokemonId);
         }
     }
 }
