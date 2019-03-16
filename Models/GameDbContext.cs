@@ -6,9 +6,14 @@ namespace EfcoreConsoleApp.Models
     {
         //DbSet內需放入單數類別，物件則需用複數(s)
         public DbSet<Pokemon> Pokemons { get; set; }
+        public DbSet<PokemonBasicProperty> PokemonBasicProperties { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlite("Data Source=game.db");
+        }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+
         }
     }
 }
