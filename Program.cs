@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using EfcoreConsoleApp.Models;
 
 namespace EfcoreConsoleApp
@@ -17,8 +18,14 @@ namespace EfcoreConsoleApp
                     Height = 10,
                     Weight = 20,
                     Category = "Roly-Poly"
+                },
+                Weaknesses = new List<PokemonWeakness>(){
+                    new PokemonWeakness{Name="Fire"},
+                    new PokemonWeakness{Name="Poly"}
                 }
             };
+
+
 
             using (var context = new GameDbContext())
             {
